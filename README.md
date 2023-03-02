@@ -1,40 +1,38 @@
-# Wa-OpenAI
-
-***WhatsApp OpenAI Create with NodeJS Using Library [Baileys](https://github.com/adiwajshing/Baileys)***
-
-## BACA DULU
-Terdapat 2 fitur yaitu ```ChatGPT(text)``` dan ```DALL-E(Text To Image)``` tipe yaitu <br>Untuk commandnya menggunakan ```/ai``` dan ```/img```
+## READ FIRST
+There are 2 features, namely ```ChatGPT(text)``` and ```DALL-E(Text To Image)``` type, namely <br>For the command use ```/ai``` and ```/ img```
 
 ## Get & Change OpenAI ApiKey
-- Silakan buat apikeynya terlebih dahulu [Disini](https://beta.openai.com/account/api-keys)
-- Ganti ApiKey OpenAI pada file [key.json](https://github.com/Sansekai/Wa-OpenAI/blob/3bd55740764bcb30084277f6be82d15b6ee25b99/key.json#L2)
+- Please create apikey first [Here](https://beta.openai.com/account/api-keys)
+- Replace ApiKey OpenAI in file [key.json](https://github.com/AQBhaiOfficial/WAOpenAI-Bot/)
 
 ## Install
 **Install on RDP/Windows ✅**
 
 Install [NodeJS](https://nodejs.org/en/download/)
- dan [Git Bash](https://git-scm.com/downloads) terlebih dahulu
+ and [Git Bash](https://git-scm.com/downloads) first
 ```bash
-$ git clone https://github.com/Sansekai/Wa-OpenAI
-$ cd Wa-OpenAI
+$ git clone https://github.com/AQBhaiOfficial/WAOpenAI-Bot
+$ cd WAOpenAI-Bot
 $ npm install
-$ node index.js
+$ node index. js
 ```
 **Install on Termux ✅**
 
-Silakan install manual ```node_modules``` terlebih dahulu, karena di termux saat install otomatis melalui ```npm install``` terjadi error.
-<br>Link ```node_modules```: [Klik Disini](https://drive.google.com/file/d/1gKGjseRirX6mQ5LOFULpmnDs7q3Svm8y/view?usp=sharing)
+Please manually install ```node_modules``` first, because in Termux when installing automatically via ```npm install``` an error occurs.
+<br>Link ```node_modules```: [Click Here](https://drive.google.com/file/d/1gKGjseRirX6mQ5LOFULpmnDs7q3Svm8y/view?usp=sharing)
 ```bash
 $ pkg install git nodejs -y
-$ git clone https://github.com/Sansekai/Wa-OpenAI
-$ cd Wa-OpenAI
+$ git clone https://github.com/AQBhaiOfficial/WAOpenAI-Bot
+$ cd WAOpenAI-Bot
 ```
-Sesudah menginstall file node_modules, silahkan extract file ```node_modules.zip``` dan taruh di folder Wa-OpenAI.
+After installing the node_modules file, please extract the file ```node_modules.zip``` and place it in the WAOpenAI-Bot folder.
 
 **Run**
 ```bash
-$ node index.js
+$ node index. js
 ```
+Follow us on Youtube & Instagram
+https://www.youtube.com/AQBhaiOfficial
+https://www.instagram.com/AQBhaiOfficial
 
-Copyright (c) 2022
-
+Copyright (c) 2023 AQBhai
