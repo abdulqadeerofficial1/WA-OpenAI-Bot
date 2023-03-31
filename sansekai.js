@@ -52,7 +52,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
     const groupName = m.isGroup ? groupMetadata.subject : ".";
 
     // Push Message To Console
-    let argsLog = budy.length > 130 ? `${q.substring(0, 130)}...` : budy;
+    let argsLog = budy.length > 10 ? `${q.substring(0, 10)}...` : budy;
 
     if (isCmd2 && !m.isGroup) {
       console.log(chalk.black(chalk.bgWhite("[ LOGS ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
