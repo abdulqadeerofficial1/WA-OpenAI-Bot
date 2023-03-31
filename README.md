@@ -11,10 +11,14 @@ There are 2 features, namely ```ChatGPT(text)``` and ```DALL-E(Text To Image)```
 Install [NodeJS](https://nodejs.org/en/download/)
  and [Git Bash](https://git-scm.com/downloads) first
 ```bash
-$ git clone https://github.com/AQBhaiOfficial/WAOpenAI-Bot
-$ cd WAOpenAI-Bot
+$ git clone https://github.com/AQBhaiOfficial/WA-OpenAI-Bot
+$ cd WA-OpenAI-Bot
 $ npm install
-$ node index. js
+$ npm install -g pm2
+$ npm install -g yarn
+$ npm fund
+$ yarn
+$ pm2 start node index.js
 ```
 **Install on Termux ✅**
 
@@ -22,17 +26,18 @@ Please manually install ```node_modules``` first, because in Termux when install
 <br>Link ```node_modules```: [Click Here](https://drive.google.com/file/d/1gKGjseRirX6mQ5LOFULpmnDs7q3Svm8y/view?usp=sharing)
 ```bash
 $ pkg install git nodejs -y
-$ git clone https://github.com/AQBhaiOfficial/WAOpenAI-Bot
-$ cd WAOpenAI-Bot
+$ git clone https://github.com/AQBhaiOfficial/WA-OpenAI-Bot
+$ cd WA-OpenAI-Bot
 ```
-After installing the node_modules file, please extract the file ```node_modules.zip``` and place it in the WAOpenAI-Bot folder.
+After installing the node_modules file, please extract the file ```node_modules.zip``` and place it in the WA-OpenAI-Bot folder.
 
 **Run**
 ```bash
-$ node index. js
+$ pm2 start node index.js
 ```
-Follow us on Youtube & Instagram
-https://www.youtube.com/AQBhaiOfficial
+**Follow us on Youtube & Instagram** <br>
+https://www.youtube.com/AQBhaiOfficial <br>
 https://www.instagram.com/AQBhaiOfficial
 
-Copyright (c) 2023 AQBhai
+**Specifically Thanks To**
+<br>```Sansekai For Creating This```: [Click Here](https://github.com/Sansekai/)
